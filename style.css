@@ -56,6 +56,14 @@
 			background-size: cover;
 			}	
 			
+			.coverfebg{
+			background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("homeimages/febg.jpg");
+			overflow: hidden;			
+			background-position: 50% 15%;	
+			background-attachment: fixed;
+			background-size: cover;
+			}	
+			
 			
 											
 			.productdiv{
@@ -88,6 +96,7 @@
 			.social img{
 			width: 50%;
 			display: inline-block;
+			transition: transform .5s;
 				
 			}
 			
@@ -98,12 +107,22 @@
 			
 			.social{
 				display: inline-block;
-				transition: transform .5s;
+				
 			}
 			
-			.social:hover{
-			transform: scale(1.2); 
+			.footer{
+				background-color: 242424;	
+				overflow: hidden;					
 			}
+			
+			.footer h1{
+				margin: 20 0 30 0;	
+				text-decoration:underline;	
+				font-size: 25px;	
+				color: 00fff7;		
+				font-family: 'Squada One', cursive;	
+			}
+
 			
 			
 			
@@ -156,38 +175,15 @@
 			}
 			
 
-			@media screen and (max-width: 480px){				
-				.navbar-toggler{
-				background-color: #34363c;
-				}
-				
-				
-				
-				.bestxpbg{
-				width: 100%;
-				height: 400px;
-				font-family: 'Squada One', cursive;
-				background-image: url(games/auwallpaper.jpg);
-				background-position: 60% 0px;
-				position: relative;
-				box-shadow: 0px 0px 3px #ffffff;
-				background-repeat: no-repeat;		
+			@media screen and (max-width: 768px) and (min-width: 300px)  { 	
+
+
+				#welcome{
+				margin: 100 0 100 0;
+				font-size: 50;
 				}
 
-				.abtustagline{
-				 font-size: 50px;
-				 	margin: -40 0 0 0;
-				}
-				
-				.font-italic{
-				margin: 0 0 10 0;		
-				}
-				
-
-		
-			}
-
-			@media screen and (max-width: 768px) and (min-width: 481px)  { 				
+			
 				.navbar-toggler{
 				background-color: #34363c;
 				}
@@ -198,54 +194,33 @@
 				margin: 0 0 100 0;
 				}
 		
-				.footerright i{
-				font-size: 40px;
-				margin: 0 20 0 0;		
-				}
-				
-				.footerright{
-				margin: 20 0 0 20;
-				top: ;
-				
-				}
-				
-				.footerleft{
-				margin: 20 0 0 20;
-				}
-
-				
-				.bestxpbg{
-				width: 100%;
-				height: 400px;
-				font-family: 'Squada One', cursive;
-				background-image: url(games/auwallpaper.jpg);
-				background-position: 60% 0px;
-				position: relative;
-				box-shadow: 0px 0px 3px #ffffff;
-				background-repeat: no-repeat;		
-				}
-				
-				.abtusblk{
-				margin-bottom: 60px;
-				}
-
-				.abtustagline{
-				 font-size: 50px;
-				 margin: -40 0 0 0;
-				}
-
 				.font-italic{
 				margin: 0 0 10 0;		
 				}
 				
-				#aboutcenter{
-				margin: 60 0 0 0;				
-				}
+				.cover1{
+				background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("homeimages/tocs.png");
+				overflow: hidden;			
+				background-position: 45% 50%;	
+				background-attachment: fixed;
+				background-size: cover;
+				}	
 				
-				#aboutlstimg{
-				margin: 70 0 0 0;
+				.cover3{
+				background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("homeimages/p3.png");
+				overflow: hidden;			
+				background-position: 80% 15%;	
+				background-attachment: fixed;
+				background-size: cover;
+				}	
+				
+				.socialdesc{
+				margin: 0 50 0 50;
 					
 				}
+				
+				
+				
 
 				}
 				
@@ -319,19 +294,27 @@
 					
 				}
 				
+				.social img:hover{
+				transform: scale(1.2); 
+				}
+				
+				.cover1{
+				background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("homeimages/tocs.png");
+				overflow: hidden;			
+				background-position: 45% 50%;	
+				background-attachment: fixed;
+				background-size: cover;
+				}
+				
+
+				
 				
 				
 			
 			}
 			
 			@media screen and (min-width: 1280px){ 
-				
-				#coldsteel{
-					margin-top:-10%;
-					float:right
-				}
-				
-				
+								
 				.carousel-item{
 				width: 100%; 
 				height: 600px; 
@@ -383,6 +366,10 @@
 				
 				.align-items-center{
 				margin-bottom: 100px;			
+				}
+				
+				.social img:hover{
+				transform: scale(1.2); 
 				}
 				
 
