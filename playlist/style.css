@@ -38,6 +38,24 @@
 				
 			}
 			
+			.coverp5d{
+			background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("homeimages/p5d.png");
+			overflow: hidden;			
+			background-position: center;	
+			background-attachment: fixed;
+			background-size: cover;
+				
+			}
+			
+			.coverp4g{
+			background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("homeimages/p4g.png");
+			overflow: hidden;			
+			background-position: center;	
+			background-attachment: fixed;
+			background-size: cover;
+				
+			}
+			
 			
 			.listbox{
 				margin: 60 0 100 0;
