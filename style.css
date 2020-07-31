@@ -64,6 +64,16 @@
 			background-size: cover;
 			}	
 			
+			.coverperinfo{
+			background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("homeimages/perinfo.jpg");
+			overflow: hidden;			
+			background-position: center;	
+			background-attachment: fixed;
+			background-size: cover;
+				
+				
+			}
+			
 			
 											
 			.productdiv{
@@ -121,6 +131,12 @@
 				font-size: 25px;	
 				color: 00fff7;		
 				font-family: 'Squada One', cursive;	
+			}
+			
+			.embed-responsive{
+				width: 30%;
+				
+				
 			}
 
 			
