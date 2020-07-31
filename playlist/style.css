@@ -163,27 +163,20 @@
 		
 				.font-italic{
 				margin: 0 0 10 0;		
-				}
-				
-				.cover1{
-				background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("homeimages/tocs.png");
-				overflow: hidden;			
-				background-position: 45% 50%;	
-				background-attachment: fixed;
-				background-size: cover;
-				}	
-				
-				.cover3{
-				background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("homeimages/p3.png");
-				overflow: hidden;			
-				background-position: 80% 15%;	
-				background-attachment: fixed;
-				background-size: cover;
 				}	
 				
 				.socialdesc{
 				margin: 0 50 0 50;
 					
+				}
+				
+				.coverp5d{
+				background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("homeimages/p5d.png");
+				overflow: hidden;			
+				background-position: 5% 10%;		
+				background-attachment: fixed;
+				background-size: cover;
+				
 				}
 				
 				
