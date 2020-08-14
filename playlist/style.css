@@ -1,6 +1,18 @@
 			body{
 			background-color: #121316;
 			}
+			
+			
+			h1{
+				margin: 60 0 40 0 ;
+				font-size: 60;
+				text-align:center;
+				color: white;
+				font-family: 'DM Serif Display', serif;
+				
+			}
+			
+
 						
 			
 			.prodhead{
@@ -56,6 +68,15 @@
 				
 			}
 			
+			.coverfe3h{
+			background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("homeimages/fe3h.png");
+			overflow: hidden;			
+			background-position: center;	
+			background-attachment: fixed;
+			background-size: cover;
+				
+			}
+			
 			
 			.listbox{
 				margin: 60 0 100 0;
@@ -65,12 +86,25 @@
 						
 			}
 			
+			
+
+			.notavail{
+				color: red!important;
+				text-decoration: underline;
+				margin: 10 0 30 0;
+				
+			}
+			
 			.listbox p{
 				color: 00fff7;
 					text-decoration: underline;
 				margin: 10 0 30 0;
 				
 			}
+			
+
+			
+			
 			
 			
 			.footer{
@@ -89,6 +123,7 @@
 			.embed-responsive{
 				width: 30%;		
 			}
+			
 
 			
 			

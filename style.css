@@ -13,6 +13,7 @@
 			
 
 			.cover1 h1{
+				
 
 			}
 			
@@ -95,6 +96,8 @@
 			.serieshead{
 			margin-top: 20px;
 			}
+			
+
 			
 			.socialdiv{
 			width: 100%;
@@ -191,6 +194,7 @@
 			}
 			
 
+
 			@media screen and (max-width: 768px) and (min-width: 300px)  { 	
 
 
@@ -253,11 +257,6 @@
 			@media screen and (max-width: 1279px) and (min-width: 769px)  { 
 				
 				
-				.carousel-item{
-				width: 100%; 
-				height: 600px; 
-				overflow: hidden;
-				}
 		
 				
 				.productdiv .products{
@@ -266,29 +265,6 @@
 				color: lightgray;
 			}
 			
-				.footerright{
-				float: right;
-				}
-				
-				.footerright h1{
-				 margin: 100 100 10 0;
-				}
-				
-				.footerleft{
-				margin: 20 0 10 90;
-				}
-				
-				
-				.bestxpbg{
-				width: 100%;
-				height: 500px;
-				font-family: 'Squada One', cursive;
-				background-image: url(games/auwallpaper.jpg);
-				background-position: 40% 0px;
-				position: relative;
-				box-shadow: 0px 0px 3px #ffffff;
-				background-repeat: no-repeat;		
-				}
 				
 
 				
@@ -339,11 +315,6 @@
 			
 			@media screen and (min-width: 1280px){ 
 								
-				.carousel-item{
-				width: 100%; 
-				height: 600px; 
-				overflow: hidden;
-				}
 				
 				.productdiv .products{
 				display: inline-block;
@@ -351,33 +322,7 @@
 				color: lightgray;
 			}
 				
-				.footerright{
-				float: right;
-				}
-				
-				.footerright h1{
-				 margin: 100 100 10 0;
-				}
-				
-				.footerleft{
-				margin: 20 0 10 90;
-				}
-				
-				
-				.bestxpbg{
-				width: 100%;
-				height: 500px;
-				font-family: 'Squada One', cursive;
-				background-image: url(games/auwallpaper.jpg);
-				position: relative;
-				box-shadow: 0px 0px 3px #ffffff;
-				background-repeat: no-repeat;		
-				}
 					
-				.abtusblk{
-				margin-bottom: 60px;
-				}		
-				
 				.products{
 				transition: transform .5s;
 					
